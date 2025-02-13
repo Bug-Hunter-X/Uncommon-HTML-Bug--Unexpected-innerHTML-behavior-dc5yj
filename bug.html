@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is visible.
+  </div>
+
+  <script>
+    // Incorrect use of innerHTML with a non-string value
+    document.getElementById("myDiv").innerHTML = 123;
+  </script>
+</body>
+</html>
