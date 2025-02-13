@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is visible.
+  </div>
+
+  <script>
+    // Correct use of innerHTML with a string value
+    document.getElementById("myDiv").innerHTML = 123.toString();
+  </script>
+</body>
+</html>
